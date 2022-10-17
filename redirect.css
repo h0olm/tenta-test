@@ -1,0 +1,28 @@
+section.redirect {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+  max-height: 15vh;
+}
+
+section > a.redirect {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  float: left;
+  padding: 0.1%;
+  border: 2px solid white;
+}
+section > a.redirect:hover {
+  text-decoration: underline;
+}
+section > a.redirect:active {
+  color: black;
+}
+section > a.redirect:visited {
+  color: black;
+}/*# sourceMappingURL=redirect.css.map */

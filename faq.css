@@ -1,0 +1,19 @@
+.faq {
+  background-color: black;
+  color: white;
+}
+
+button.accordion-button {
+  background-color: black;
+  color: white;
+}
+
+div.accordion-item {
+  background-color: white;
+  color: black;
+}
+
+h2#faq.my-3 {
+  background-color: black;
+  padding: 5%;
+}/*# sourceMappingURL=faq.css.map */

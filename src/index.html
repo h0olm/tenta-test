@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="fresh fruits home delivery ekologisk vegetariskt">
+	<meta name="keywords"
+		content="frukt, bär, grönsaker, catering, prenumeration, närproducerat, ekologisk, vegan, vegansk, vegetariskt, vegetarian">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link href="scss/main.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="../material/fruitsicon.jpg">
+	<title>FruktLandet</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<div class="container bg-light">
+		<header>
+			<div class="text-center margin-top small-hidden">
+				<p><img class="checkicon" src="../material/checkicon.png" alt="checkicon">Frakfritt från 499 kr</p>
+			</div>
+			<div class="first-header-container">
+				<div class="mr-auto logo-container"><img class="logo justify-content-start col-2" src="../material/icon.png"
+						alt="hellofrukt">
+				</div>
+				<div class="shoppingcart-kassa-container">
+					<div class="p2 shoppingcart-container small-hidden">
+						<a class="btn bg-secondary bg-gradient bg-opacity-50 btn-lg text-white" type="button" href="ongoing.html">
+							<img class="shopping-icon" src="../material/shoppingcart.jpg" alt="shopping cart" />
+							<p class="display-inline "><span class="medium-hidden small-medium-hidden">Klick här
+									att se</span> din varukorgen
+							</p>
+						</a>
+					</div>
+					<div class="p2 small-hidden">
+						<a class="btn btn-danger bg-gradient btn-lg" type="button" href="ongoing.html">Kassa</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- drop down-->
+			<div class="drop-down-menu-basket-container">
+				<div id="drop-down-menu">
+					<button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" onclick="btnClick()">Menu
+						<span class="caret"></span></button>
+					<div id="drop-down-menu-body">
+						<ul class="list-unstyled">
+							<li class="drop-down-menu-style"><a href="index.html">Home</a></li>
+							<li class="drop-down-menu-style"><a href="../products.html">Products</a></li>
+							<li class="drop-down-menu-style"><a href="../about.html">About us</a></li>
+							<li class="drop-down-menu-style"><a href="contact.html">Contact us</a></li>
+							<li class="drop-down-menu-style"><a href="../news/news.html">News</a></li>
+						</ul>
+					</div>
+					<script>
+						function btnClick() {
+							const menuBody = document.getElementById('drop-down-menu-body');
+							menuBody.style.display = menuBody.style.display === "none" ? "block" : "none";
+						}
+					</script>
+				</div>
+				<div class="big-hidden">
+					<a href="ongoing.html">
+						<img class="small-screen-shopping-icon" src="../material/shoppingcart.jpg" alt="shopping cart" />
+					</a>
+				</div>
+			</div>
+			<div class="menu-search-container bg-success">
+				<!-- horizontal menu-->
+				<div class="horizontal-menu">
+					<nav class="navbar navbar-expand-md justify-content-start">
+						<ul class="navbar-nav">
+							<li class="nav-item menu-li">
+								<a href="index.html" type="button">Home</a>
+							</li>
+							<li class="nav-item menu-li">
+								<a href="../products.html" type="button">Products</a>
+							</li>
+							<li class="nav-item menu-li">
+								<a href="../about.html" type="button">About <span class="small-medium-hidden">us</span></a>
+							</li>
+							<li class="nav-item menu-li">
+								<a href="contact.html" type="button">Contact <span class="small-medium-hidden">us</span></a>
+							</li>
+							<li class="nav-item menu-li">
+								<a href="../news/news.html" type="button">News</a>
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+				<div class="search-header">
+					<form class="d-flex" role="search">
+						<input class="form-control me-7" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-light text-green" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<div id="carouselExampleCaptions" class="carousel slide fw-bold" data-bs-ride="true">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+					aria-label="Slide 4"></button>
+			</div>
+			<div class="carousel-inner">
+
+				<div class="carousel-item active">
+					<picture class="d-block w-100">
+						<source type="image/webp" srcset="../material/fruktcatering.webp" class="d-block w-100">
+						<source type="image/webp" srcset="../material/fruktcatering.jpg" class="d-block w-100">
+						<img src="/material/fruktcatering.jpg" class="d-block w-100" alt="Färska Frukter">
+					</picture>
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="fw-bold">Färska Frukter</h5>
+						<p>Dina färska frukter och grönsaker kommer till dig direkt från gården</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<picture class="d-block w-100">
+						<source type="image/webp" srcset="../material/ekologisk.webp" class="d-block w-100">
+						<source type="image/webp" srcset="../material/ekologisk.jpg" class="d-block w-100">
+						<img src="../material/ekologisk.jpg" class="d-block w-100" alt="Färska Frukter">
+					</picture>
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="fw-bold">Ekologisk grönsaker</h5>
+						<p>Säsongens bästa ekologiska grönsaker</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<picture class="d-block w-100">
+						<source type="image/webp" srcset="../material/jordgubbar.webp" class="d-block w-100">
+						<source type="image/webp" srcset="../material/jordgubbar.jpg" class="d-block w-100">
+						<img src="../material/jordgubbar.jpg" class="d-block w-100" alt="Färska Frukter">
+					</picture>
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="fw-bold">Frukt</h5>
+						<p>Dina färska frukter och grönsaker kommer till dig direkt från gården</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<picture class="d-block w-100">
+						<source type="image/webp" srcset="../material/vegetariskt.webp" class="d-block w-100">
+						<source type="image/webp" srcset="../material/vegetariskt.jpg" class="d-block w-100">
+						<img src="../material/vegetariskt.jpg" class="d-block w-100" alt="Färska Frukter">
+					</picture>
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="fw-bold">Hemleverans</h5>
+						<p>Vi levererar frukt och fikabröd på smidigt sätt med hög kvalité och service</p>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<div>
+			<div>
+				<h3 class="paket-section">Väljer från olika paket</h3>
+			</div>
+			<div class="flex-row-container">
+				<div class="card mouse-on-action">
+					<picture class="card-img-top">
+						<source type="image/webp" srcset="../material/frukt.webp" class="card-img-top">
+						<source type="image/webp" srcset="../material/frukt.jpg" class="card-img-top">
+						<img src="../material/frukt.jpg" alt="två dagar fruktlådan till privat" class="card-img-top">
+					</picture>
+					<div class="card-body">
+						<h5 class="card-title">Klassik Frukt To Go</h5>
+						<p class="card-text small-hidden">Säsongens bästa frukter 1kg<span class="medium-hidden small-medium-hidden">, t.ex. äpple, päron, apelsin,
+							clementin,nektarin, kiwi, persikor, jordgubbar, plommon.</span></p>
+						<div class="card-footer text-end bg-white my-0"><a href="../products.html" class="btn btn-primary">Beställa
+								här</a></div>
+					</div>
+				</div>
+				<div class="card mouse-on-action">
+					<picture class="card-img-top">
+						<source type="image/webp" srcset="../material/salad.webp" class="card-img-top">
+						<source type="image/webp" srcset="../material/salad.jpg" class="card-img-top">
+						<img src="../material/salad.jpg" class="card-img-top" alt="1kg grönsaker">
+					</picture>
+					<div class="card-body">
+						<h5 class="card-title">Klassik Grönsak To Go</h5>
+						<p class="card-text small-hidden">Säsongens bästa grönsaker 1kg<span class="medium-hidden small-medium-hidden">, t.ex. potatis, tomater, selek, vitlök,
+							gurka,
+							pepperika, champanion, salad.</span></p>
+						<div class="card-footer text-end bg-white"><a href="../products.html" class="btn btn-primary">Beställa här</a>
+						</div>
+					</div>
+				</div>
+				<div class="card mouse-on-action">
+					<picture class="card-img-top">
+						<source type="image/webp" srcset="../material/fruktpaket.webp" class="card-img-top">
+						<source type="image/webp" srcset="../material/fruktpaket.jpg" class="card-img-top">
+						<img src="../material/fruktpaket.jpg" class="card-img-top" alt="två dagar fruktlådan till Conference">
+					</picture>
+					<div class="card-body">
+						<h5 class="card-title">Frukt Conference</h5>
+						<p class="card-text small-hidden">Säsongens bästa frukter 5kg<span class="medium-hidden small-medium-hidden">, t.ex. äpple, päron, apelsin,
+							clementin,nektarin, kiwi, persikor, jordgubbar, plommon.</span></p>
+						<div class="card-footer text-end bg-white"><a href="#" class="btn btn-primary">Beställa här</a>
+						</div>
+					</div>
+				</div>
+				<div class="card mouse-on-action">
+					<picture class="card-img-top">
+						<source type="image/webp" srcset="../material/vegetablepaket.webp" class="card-img-top">
+						<source type="image/webp" srcset="../material/vegetablepaket.jpg" class="card-img-top">
+						<img src="../material/vegetablepaket.jpg" class="card-img-top" alt="fresh fruits party">
+					</picture>
+					<div class="card-body">
+						<h5 class="card-title">Fresh Party</h5>
+						<p class="card-text small-hidden">Säsongens bästa frukter 10kg<span class="medium-hidden small-medium-hidden">, t.ex. äpple, päron, apelsin,
+							clementin,nektarin, kiwi, persikor, jordgubbar, plommon.</span></p>
+						<div class="card-footer text-end bg-white"><a href="../products.html" class="btn btn-primary">Beställa här</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="two-column-container">
+			<div class="two-column-element row align-items-center whyfruit mouse-on-action">
+				<h3 class="py-3 text-center"><b>Varför äter vi fresh frukt</b></h3>
+				<blockquote
+					cite="https://www.livsmedelsverket.se/livsmedel-och-innehall/mat-och-dryck/frukt-gront-och-baljvaxter">
+					<b>Fem knytnävsstora portioner om dagen. Så mycket frukt och grönsaker är bra att äta för att hålla
+						sig
+						hälsosam. Med andra ord: 500 gram för vuxna och 400 gram för barn.</b>
+				</blockquote>
+				<a href="https://www.livsmedelsverket.se/livsmedel-och-innehall/mat-och-dryck/frukt-gront-och-baljvaxter"
+					class="btn btn-secondary bg-gradient">Läser mer</a>
+			</div>
+			<div class="two-column-element row align-items-center news mouse-on-action">
+				<h3 class="text-center py-3"><b>News</b></h3>
+				<p><b>Nyanlända blåbär från vår gård. beställ nu och få 30% rabattNyanlända blåbär från vår gård.
+						beställ nu och få 30% rabattNyanlända blåbär från vår gård. beställ nu och få 30% rabatt</b></p>
+				<a href="ongoing.html" class="btn btn-secondary px-0">Shop now</a>
+			</div>
+		</div>
+		<div class="footer-section">
+			<div class="report-news">
+				<article class="two-column-element">
+					<h3 class="news-title">Anmäl dig till vårt nyhetsbrev</h3>
+					<p class="news-letter">Erbjudanden, nyheter och inspiration varje vecka!
+					</p>
+				</article>
+
+				<form class="small-center">
+					<label for="email" class="email-hidden">E-postadress</label>
+					<input class="news-letter news-input" type="email" id="email" name="email" placeholder="exempel@email.com">
+					<button class="send-button" type="submit">Skicka</button>
+				</form>
+			</div>
+			<div class="bg-light py-3">
+				<p class="news-letter">HelloFrukt är ett nyetablerat företag som fokuserar på färsk frukt för både
+					familjer och företag.</p>
+			</div>
+			<div class="bg-white text-center py-3 flex-row-container">
+				<a class="footer" href="../about.html">Om oss&vår butik</a>
+				<a class="footer" href="contact.html">Kundservice</a>
+				<a class="footer" href="ongoing.html">Personuppgifter</a>
+				<a class="footer" href="ongoing.html">Köp-och Leveransvillkor</a>
+			</div>
+			<div class="bg-light news-letter py-3">© 2022 HelloFrukt</div>
+		</div>
+	</div>
+</body>
+
+</html>

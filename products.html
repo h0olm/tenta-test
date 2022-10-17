@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Products" />
+    <meta name="keywords" content="frukt, bär, grönsaker, prenumeration, ekologisk, ekologiska, frukt, fruktkorg, recept, äpple, kiwi, vindruvor, jordgubbar, blåbär" />
+    <meta name="author" content="Jacob Erlandsson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <link rel="stylesheet" type="text/css" href="nav.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="discountbar.css" />
+    <link rel="stylesheet" type="text/css" href="redirect.css" />
+    <link rel="stylesheet" type="text/css" href="subscribe.css" />
+    <link rel="stylesheet" type="text/css" href="recipe.css" />
+    <link rel="stylesheet" type="text/css" href="buttons.css" />
+    <link rel="stylesheet" type="text/css" href="faq.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Anaheim"
+      rel="stylesheet"
+    />
+    <title>Handla frukt online</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <header>
+      <div class="header">
+        <h1 class="h1 anim">Fruktlandet</h1>
+        <svg width="100" height="100" class="svg">
+          <line x1="0" y1="0" x2="10" y2="10" style="stroke:brown;stroke-width:2" />
+          <circle cx="30" cy="33.5" r="30" stroke="green" stroke-width="2" fill="green" />
+        </svg>
+    </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg" id="navigationbgcolor">
+      <div class="container">
+        <a class="navbar-brand" href="products.html">Fruktlandet</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="src/index.html"
+                >Startsida</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Frukt
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="products.html">Se alla</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#priceperhg">Lösvikt</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#fruitbasket">Fruktkorg</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#subscribe"
+                    >Fruktprenumeration</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#recipe">Recept</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#faq">FAQ</a>
+                </li>
+              </ul>
+           
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Om oss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="src/contact.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news/news.html">Nyheter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="discount">
+        <h2 class="discountanim">JUST NU: 25% Rabatt på lösvikt</h2>
+      </section>
+
+
+
+      <section class="redirect">
+        
+        <a href="#priceperhg" class="redirect my-5"> Lösvikt </a>
+        <a href="#fruitbasket" class="redirect my-5 justify-content-center">
+          Fruktkorgar
+        </a>
+        <a href="#subscribe" class="redirect justify-content-center">
+          Prenumenera
+        </a>
+        <a href="#recipe" class="redirect justify-content-center">
+          Recept
+        </a>
+        <a href="#faq" class="redirect justify-content-center">
+          FAQ
+        </a>
+      </section>
+
+      <h2 class="my-5 text-align-center justify-content-center" id="priceperhg">
+        Köp ekologisk frukt, grönsaker och bär i lösvikt
+      </h2>
+      <section class="gallery">
+        <div class="container-lg-priceperhg">
+          <div
+            class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center"
+          >
+            <div class="col">
+              <a href="pexels-pixabay-46174.jpg" target="_blank">
+              <img
+                src="pexels-pixabay-46174.jpg"
+                class="gallery-item"
+                alt="Bild på en stor mängd röda jordgubbar" />
+              </a>
+
+              <p class="description">
+                Jordgubbar (Sverige) <b>100kr/kg</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+            </div>
+
+            <div class="col">
+              <a href="pexels-mareefe-672101.jpg" target="_blank">
+              <img
+                src="pexels-mareefe-672101.jpg"
+                class="gallery-item"
+                alt="Bild på åtta stycken äpplen som ligger på en grå yta"
+                target="_blank" />
+              </a>
+              <p class="description">
+                Äpplen (Sverige) <b>50 kr/kg</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+
+            </div>
+            <div class="col">
+              <a href="pexels-magda-ehlers-1300975.jpg" target="_blank">
+              <img
+                src="pexels-magda-ehlers-1300975.jpg"
+                class="gallery-item"
+                alt="Bild på äpplen, ananas, papaya och bananer som ligger i varsin trälåda"/>
+              </a>
+              <p class="description">
+                Fruktmix (Sverige) <b>100 kr/kg</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+            </div>
+
+            <div class="col">
+              <a href="pexels-veeterzy-70862.jpg" target="_blank">
+              <img
+                src="pexels-veeterzy-70862.jpg"
+                class="gallery-item"
+                alt="Bild på flera pappersbehållare fyllda med blåbär staplade på varandra"/>
+              </a>
+              <p class="description">
+                Blåbär (Sverige) <b>50 kr/kg</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+            </div>
+
+            <div class="col">
+              <a href="pexels-photomix-company-867349.jpg" target="_blank">
+              <img
+                src="pexels-photomix-company-867349.jpg"
+                class="gallery-item"
+                alt="Bild på horisontellt skivade kiwibitar"/>
+              </a>
+              <p class="description">
+                Kiwi (Sverige) <b>70 kr/kg</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+
+            </div>
+            <div class="col">
+              <a href="pexels-kaichieh-chan-708777 (1).jpg" target="_blank">
+              <img
+                src="pexels-kaichieh-chan-708777 (1).jpg"
+                class="gallery-item"
+                alt="Bild på tre klasar lila vindruvor med löv runtomkring och i bakgrunden"/>
+              </a>
+              <p class="description">
+               Vindruvor (Sverige) <b>80 kr/kg</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+     
+
+      
+        <h2 class="my-5 text-align-center justify-content-center" id="fruitbasket">
+          Färdiga fruktkorgar
+        </h2>
+        <section class="gallery min-vh-50">
+          <div class="container-lg-fruitbasket">
+            <div
+              class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center"
+            >
+            <div class="col">
+              <a href="pexels-photomix-company-235294.jpg" target="_blank">
+              <img
+                src="pexels-photomix-company-235294.jpg"
+                class="gallery-item"
+                alt="Bild på en rågad fruktkorg ståendes på ett träbord. Korgen är fylld med gröna vundruvor, bananer och nektariner. Sju vindruvor har ramlat av och ligger brevid korgen. "/>
+              </a>
+              <p class="description">
+                Vardagskorgen <b>199 kr/st</b>
+                <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                  <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                </a>
+              </p>
+            </div>
+
+              <div class="col">
+                <a href="pexels-trang-doan-1132047 (1).jpg" target="_blank">
+                <img
+                  src="pexels-trang-doan-1132047 (1).jpg"
+                  class="gallery-item"
+                  alt="Bild på frukt och bär som lagts ut fint på en träbricka. På brickan ligger en blandning av jordgubbar, björnbär, ananas, hallon, blåbär, apelsin, lime, kiwi, äpple, med mera"/>
+                </a>
+                <p class="description">
+                  Festkorgen <b>499 kr/st</b>
+                  <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                    <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                  </a>
+                </p>
+              </div>
+              
+              <div class="col">
+                <a href="pexels-pixabay-221100 (1).jpg" target="_blank">
+                <img
+                  src="pexels-pixabay-221100 (1).jpg"
+                  class="gallery-item"
+                  alt="En korg fylld med en stor mängd hallon"/>
+                </a>
+                <p class="description">
+                  Hallonfrossa <b>149 kr/st</b>
+                  <a class="btn" href="underconstruction.html" target="_blank" role="button">
+                    <button class="btn btn-light" type="button" title="Lägg i varukorg"><i class="bi bi-cart addtocart"></i></button>
+                  </a>
+                </p>
+      </section>
+   
+
+     <h2 class="my-5" id="subscribe">Är du intresserad av återkommande leveranser? Prenumenera på valfri fruktkorg!</h2>
+      <section class="section-subscribe">
+        <fieldset>
+          <legend class="form-subscribe">Fruktprenumeration</legend>
+          <form action="mailto:firstname.lastname@mymail.eu" class="form-subscribe">
+            <fieldset>
+            <label for="fullName">Fullständigt namn:</label><br>
+            <input type="text" id="fullName" required/><br>
+            <label for="email">Email: </label><br />
+            <input type="email" id="email" required/> <br>
+            <label for="deliveryAdress">Leveransadress:</label> <br>
+            <input type="text" id="deliveryAdress" required/> <br> <br>
+           </fieldset>
+
+           <fieldset>
+              <label for="subscribe-korg"> <u>Vilken / Vilka fruktkorgar vill du prenumenera på?</u> <br>
+              <label for="vardag">Vardagskorgen</label> 
+              <input type="checkbox" id="vardag" name="vardag" value="vardagskorgen"> <br>
+              <label for="fest"> Festkorgen</label>
+              <input type="checkbox" id="fest" name="fest" value="festkorgen"> <br>
+              <label for="frossa"> Hallonfrossa</label>
+              <input type="checkbox" id="frossa" name="frossa" value="hallonfrossa"> <br> <br>
+            </label>
+            </fieldset>
+
+            <fieldset>
+              <label for="dropdown-subscribe"> <u>Hur ofta vill din order levererad?</u> <br> <br>
+                <select id="dropdown-subscribe" name="d-subscribe" required>
+                  <option value="weekly">En gång i veckan</option>
+                  <option value="eoweek">Varannan vecka</option>
+                  <option value="monthly">En gång i månaden</option>
+                </select> 
+              </label>
+            </fieldset> <br>
+
+            <fieldset>
+              <input type="submit" value="Submit">
+              <input type="reset">
+            </fieldset> <br>
+        </section>
+
+      <h2 class="my-5 text-align-center justify-content-center" id="recipe">
+        Recept 
+      </h2>
+      <section class="sectioncarousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pexels-engin-akyurt-3085148.jpg" class="d-block w-100 carouselimg1" alt="Fruktsallad som portionerats ut i plastglas. Fruktsalladen består av jordgubbar, apelsin, blåbär, vindruva">
+            </div>
+            <div class="carousel-item">
+              <img src="pexels-lisa-fotios-838846.jpg" class="d-block w-100 carouselimg1" alt="Fruktsallad i en porslinsskål. Fruktsalladen består av vindruvor, banan, jordgubbar och hallon">
+            </div>
+            <div class="carousel-item">
+              <img src="pexels-lisa-fotios-1436062.jpg" class="d-block w-100 carouselimg1" alt="Fruksallad i en porslinsskål och en hand som håller i en gaffel. Fruksalladen består av apelsin, kiwi pch vindruvor">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+      <section class="recipe-container my-5">
+        <div class="card text-bg mb-3 recipe" style="max-width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Höstsallad</h3>
+            <ul>
+              <li>Jordgubbar</li>
+              <li>Gröna vindruvor</li>
+              <li>Svarta vindruvor</li>
+              <li>Banan</li>
+              <li>Hallon</li>
+            </ul>
+          </div>
+        </div>
+        
+       
+        <div class="card text-bg mb-3 recipe" style="max-width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Vintersallad</h3>
+            <ul>
+              <li>Kiwi</li>
+              <li>Svarta vindruvor</li>
+              <li>Apelsin</li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <div class="card text-bg mb-3 recipe" style="max-width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Sommarsallad</h3>
+            <ul>
+              <li>Jordgubbar</li>
+              <li>Apelsin</li>
+              <li>Svarta vindruvor</li>
+              <li>Banan</li>
+              <li>Äpple</li>
+              <li>Lime</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    
+    
+
+    <section class="faq">
+      <h2 class="my-3" id="faq"> FAQ</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Är er frukt god?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             Jättegod.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Hur lång är leveranstiden?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              1-2 dagar.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Kan man lägga en beställning via telefon istället?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             Ja, absolut. Våra kontaktuppgifter finns under kontaktfliken samt längst ner på sidan.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+      <section class="footer">
+       
+        <ul> 
+          <li class="footerh">Contact</li>
+          <li> Fruktlandet AB</li>
+          <li> Göteborg, Sverige</li>
+          <li> Postnummer: 41266</li>
+          <li> Tel: 031 - 123456789</li>
+        </ul>
+
+      
+      <ul> 
+        <li  class="footerh">Meny</li>
+        <li>
+          <a href="#priceperhg" class="redirect my-5"> Lösvikt </a>
+        </li>
+       
+       <li>
+        <a href="#fruitbasket" class="redirect my-5 justify-content-center">
+          Fruktkorgar
+        </a>
+       </li>
+        <li> <a href="#subscribe" class="redirect justify-content-center">
+          Prenumenera
+        </a></li>
+        <li><a href="#recipe" class="redirect justify-content-center">
+          Recept
+        </a></li>
+        <li>
+          <a href="#faq" class="redirect justify-content-center">
+          FAQ
+        </a>
+      </li>
+      </ul>
+    </section>
+    </footer>
+  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

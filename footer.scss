@@ -1,0 +1,42 @@
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 5%;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+}
+
+section.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+section.footer > ul > b {
+    color: white;
+}
+
+section.footer  > ul {
+    list-style-type: none;
+}
+
+section.footer  > ul > li {
+    list-style-type: none;
+    color: white;
+}
+
+section.footer  > ul > li > a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: green;
+    }
+
+}
+
+li.footerh {
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+

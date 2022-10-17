@@ -1,0 +1,22 @@
+.recipe-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+div.recipe {
+  margin: 2%;
+}
+
+.card-title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.card-body {
+  box-shadow: 5px 10px grey;
+  border: 2px dotted black;
+  background-color: ivory;
+}/*# sourceMappingURL=recipe.css.map */

@@ -1,0 +1,22 @@
+.section-subscribe {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-image: url(pexels-carlo-martin-alcordo-246977.jpg);
+    color: white;
+}
+
+form.form-subscribe, legend.form-subscribe {
+    justify-content: center;
+    background-color: black;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+legend.form-subscribe {
+    margin: 0;
+}
+
+.subscribe-korg > #text {
+    text-decoration: underline;
+}

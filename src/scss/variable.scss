@@ -1,0 +1,45 @@
+.email-hidden {
+	width: 1px;
+	margin: -1px;
+	overflow: hidden;
+}
+
+.news-input{
+	box-sizing: border-box;
+	height:50px;
+	background-color: rgb(241, 239, 239);
+	border-color: rgb(221, 220, 220);
+}
+
+.send-button{
+	height:50px;
+	background-color: black;
+	color:white;
+}
+
+li.menu-li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+padding-left: 1vw; 
+padding-right: 1vw;
+}
+
+li.menu-li a:hover {
+  background-color: white;
+	color:green;
+  font-weight: bold;
+}
+
+.drop-down-menu-style a{
+	text-decoration: none;
+	color:white;
+	padding:1vw;
+	font-size: large;
+}
+
+.drop-down-menu-style a:hover{
+	background-color: white;
+	color:green;
+  font-weight: bold;
+}

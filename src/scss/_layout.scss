@@ -1,0 +1,184 @@
+.flex-row-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.paket-section {
+	padding: 30px;
+	text-align: center;
+}
+
+button {
+	font-weight: bold;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.card {
+	width: 24%;
+}
+
+.two-column-container {
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu-search-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.two-column-element {
+	width: 50%;
+}
+
+.first-header-container {
+	display: flex;
+}
+
+.logo-container {
+	width: 30%;
+}
+
+.shoppingcart-kassa-container {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	justify-content: right;
+}
+
+.shoppingcart-container {
+	width: 50%;
+}
+
+.display-inline {
+	display: inline;
+}
+
+.footer-section {
+	background-color: white;
+}
+
+.report-news {
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.ongoing-side {
+	position: fixed;
+	bottom: 50%;
+	left: 20%;
+}
+
+.in-middle {
+	text-align: center;
+}
+
+.big-hidden {
+	display: none;
+}
+
+#drop-down-menu {
+	display: none;
+}
+
+#drop-down-menu-body {
+	display: none;
+	position: absolute;
+	margin-top: 0px;
+	background-color: rgb(58, 116, 58);
+	margin-left: 0px;
+	z-index: 99;
+}
+
+@media screen and (max-width: 912px) {
+	.flex-row-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.two-column-container {
+		flex-direction: column;
+	}
+
+	.card {
+		width: 100%;
+	}
+
+	.two-column-element {
+		width: 100%;
+	}
+
+	.report-news {
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	.small-hidden {
+		display: none;
+	}
+
+	.search-header {
+		width: 100%;
+		padding-bottom: 0.5vw;
+		background-color: green;
+	}
+
+	.horizontal-menu {
+		display: none;
+	}
+
+	.small-center {
+		text-align: center;
+	}
+
+	.logo {
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+		width: 100%;
+	}
+
+	.small-screen-shopping-icon {
+		width: 35px;
+		position: relative;
+		border: 3px solid;
+		border-color: black;
+	}
+
+	.big-hidden {
+		display: block;
+	}
+
+	#drop-down-menu {
+		display: block;
+	}
+
+	.drop-down-menu-basket-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width:913px) and (max-width:991px) {
+	.small-medium-hidden {
+		display: none;
+	}
+	.small-center{
+		text-align: center;
+	}
+}
+	@media screen and (min-width:992px) and (max-width:1200px) {
+		.medium-hidden {
+			display: none;
+		}
+	}

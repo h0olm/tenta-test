@@ -1,0 +1,29 @@
+{
+  "name": "html-css-kursinlamning-grupp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/contact.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/contact.html --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacoberlandsson/HTML-CSS-kursinlamning-grupp3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacoberlandsson/HTML-CSS-kursinlamning-grupp3/issues"
+  },
+  "homepage": "https://github.com/jacoberlandsson/HTML-CSS-kursinlamning-grupp3#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "devDependencies": {
+  "parcel-bundler": "^1.12.5",
+   "sass": "^1.55.0"
+  }
+}

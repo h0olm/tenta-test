@@ -1,0 +1,10 @@
+#navigationbgcolor {
+  background-color: white;
+  border-bottom: 3px solid green;
+}
+
+.nav-link:hover {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}/*# sourceMappingURL=nav.css.map */

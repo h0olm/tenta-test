@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Beställ din fruktcatering här, närproducerade frukter och bär på prenumerationstjänst till erat företag. Ekologiska alternativ finnes!"/>
+    <meta keywords="frukt, bär, grönsaker, catering, prenumeration, närproducerat, ekologisk, vegan, vegansk, vegetariskt, vegetarian">
+    <title>Fruktlandet Catering</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="SASS/about.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Fruktlandet</h1>
+      <p>
+        Välkommen till Fruktlandet, din lokala leverantör av närproducerat frukt och grönt
+        till er arbetsplats!
+      </p>
+
+      <!-- Bootstrap komponent: Navbar -->
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="src/index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Produkter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news/news.html">Nyheter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Om oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="src/contact.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="backgroundImage">
+        <div class="gradient">
+          <article class="introduction">
+            <h2>Om oss</h2>
+            <div class="introTextandImage">
+              <p class="introText fst-italic fs-5">
+                Sedan 2005 har vi levererat fruktkorgar till våra trogna kunder
+                i södra Sverige.
+              </p>
+              <p>
+                Frukt, bär, och grönsaker. Ekologiskt såväl som veganskt/vegetariskt. Maiores nemo dolorem commodi nam soluta fuga rerum corporis
+                expedita laborum ducimus numquam, veniam aperiam quia mollitia?
+                Vero et veritatis error reprehenderit optio nostrum, odit quod
+                labore cupiditate facere modi mollitia earum at facilis dolorem!
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <article class="employees">
+        <h3>Vi som jobbar här</h3>
+
+        <!-- Bootstrap komponent: Cards -->
+
+        <div
+          class="row d-flex flex-row justify-content-center align-items-center">
+          <div class="col-md-10">
+            <div class="card-group">
+              <div class="card w-70">
+                <img
+                  src="images_about/Pexels_David.jpg"
+                  class="card-img-top"
+                  alt="Bild av vår HR-chef David"/>
+                <div class="card-body">
+                  <p class="card-text">David, HR-chef</p>
+                </div>
+              </div>
+              <div class="card w-70">
+                <img
+                  src="images_about/Pexels_Mona.jpg"
+                  class="card-img-top"
+                  alt="Bild av vår inköpare Mona"/>
+                <div class="card-body">
+                  <p class="card-text">Mona, Inköpare</p>
+                </div>
+              </div>
+              <div class="card w-70">
+                <img
+                  src="images_about/Pexels_Karolina.jpg"
+                  class="card-img-top"
+                  alt="Bild av vår IT-chef Karolina"/>
+                <div class="card-body">
+                  <p class="card-text">Karolina, IT-chef</p>
+                </div>
+              </div>
+              <div class="card w-70">
+                <img
+                  src="images_about/Pexels_Markus.jpg"
+                  class="card-img-top"
+                  alt="Bild av vår säljare Markus"/>
+                <div class="card-body">
+                  <p class="card-text">Markus, Säljare</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          illo expedita incidunt adipisci ea molestiae qui provident animi
+          aperiam eos.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure commodi
+          obcaecati doloribus quas maiores? Cumque, illo, sapiente perspiciatis
+          necessitatibus enim voluptas et totam quaerat autem quibusdam
+          accusamus repellat soluta eum. Saepe dignissimos cum dolorum,
+          voluptate maxime officia voluptas, magnam harum atque consequatur
+          dolor dolores quo quibusdam perferendis, repellendus autem laborum
+          molestiae deserunt!
+        </p>
+      </article>
+
+      <article class="workplace">
+        <h3>Vår arbetsplats</h3>
+
+        <!-- Bootstrap komponent: Carousel -->
+
+        <div
+          class="row d-flex flex-row justify-content-center align-items-center">
+          <div class="col-md-8">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images_about/Pexels_Workplace.jpg"
+                    class="d-block w-100"
+                    alt="Bild av arbetsplatsen, visandes en trappa, tegelvägg, och medarbetare"/>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images_about/Pexels_Gruppbild.jpg"
+                    class="d-block w-100"
+                    alt="Gruppbild av anställda som står på en rad"/>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images_about/Pexels_Sorting.jpg"
+                    class="d-block w-100"
+                    alt="Bild av kunder som fått ny leverans av frukt utanför deras butik"/>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          optio quam recusandae atque beatae, autem asperiores dolorem maxime
+          eos rerum maiores veritatis ipsa voluptas nulla minima quae officia
+          error ab vitae voluptates rem doloribus explicabo! Numquam dolor
+          asperiores corrupti doloribus, nihil dolores odit sint, excepturi
+          impedit quia, quos maiores itaque?
+        </p>
+      </article>
+
+      <article class="questions">
+        <h3>Vanliga frågor om vår verksamhet</h3>
+
+        <!-- Bootstrap komponent: Accordion -->
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne">
+                Prenumerationsalternativ
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Catering finns möjligt. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum aliquid omnis blanditiis nesciunt hic. Quos sint vitae,
+                  ex ipsum voluptate laboriosam sed quae, cupiditate, ducimus
+                  mollitia natus doloremque iste.
+                </p>
+                <ul>
+                  <li>Lorem, ipsum dolor.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur.</li>
+                  <li>Lorem ipsum dolor sit.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo">
+                Frakt
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Molestiae inventore unde impedit necessitatibus similique vel
+                  excepturi explicabo maxime, quae, corrupti tempora molestias?
+                  Est cumque, repellendus pariatur obcaecati blanditiis itaque
+                  praesentium?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                Vart i Sverige kan vi leverera till?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h6>Västra götaland</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus nulla aspernatur minus vel doloremque fugit!
+                </p>
+                <h6>Skåne</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nostrum voluptatibus unde perspiciatis veniam distinctio
+                  beatae tempora facilis tempore dolore in?
+                </p>
+                <h6>Stockholm</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  quasi, veniam impedit, sunt dolore eligendi fugiat et dolores
+                  qui accusamus magni vero, fugit eius ipsa delectus maiores
+                  voluptatum dolor dignissimos.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour">
+                  Ekologiska alternativ
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Veganska och vegetariska alternativ. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Molestiae inventore unde impedit necessitatibus similique
+                    vel excepturi explicabo maxime, quae, corrupti tempora
+                    molestias? Est cumque, repellendus pariatur obcaecati
+                    blanditiis itaque praesentium?
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive">
+                    Information om allergi
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Molestiae inventore unde impedit necessitatibus similique
+                      vel excepturi explicabo maxime, quae, corrupti tempora
+                      molestias? Est cumque, repellendus pariatur obcaecati
+                      blanditiis itaque pra
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Porro repellat possimus eaque sint quam cupiditate illo
+                      minus beatae ex, corporis nisi numquam quidem unde et
+                      necessitatibus fugit autem quod, nesciunt a aliquam
+                      itaque? Cum eos ducimus fugit earum! Quas id culpa vero
+                      velit nisi cupiditate?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Minima quisquam sint in perferendis impedit, nulla autem
+                      fugiat architecto soluta quis?
+                      <a
+                        href="https://astmaoallergiforbundet.se/information-rad/allergi/matallergi/"
+                        >Om matallergi, från Astma & allergiförbundet.</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="coupon">
+        <h5>Tack för visat intresse för vårt företag!</h5>
+        <p class="fst-italic">
+          Som belöning för detta bjuder vi på en rabattkod för er första
+          beställning hos oss:
+        </p>
+
+        <!-- Bootstrap komponent: Modal -->
+
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          Välkomstrabatt
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Välkomstrabatt
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">V2022NYKUND</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-outline-success"
+                  data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+
+      <!--Flexbox för footerinnehåll-->
+
+      <div class="footerContent">
+        <div class="fruktlandet">
+          <h5>Fruktlandet</h5>
+          <ul>
+            <li>Storköpsgatan 5</li>
+            <li>123 23 Ort</li>
+            <li>Sverige</li>
+          </ul>
+        </div>
+
+        <div class="kontakt">
+          <h5>Kontakt</h5>
+          <ul>
+            <li>Kundservice: 070 023 96 56</li>
+            <li>Email: helpdesk@fruktservice.se</li>
+          </ul>
+        </div>
+
+        <!-- Bootstrap komponent: Form -->
+
+        <div class="input-group-small mb-3">
+          <h6>
+            Vill du få vårt nyhetsbrev med erbjudanden och nyheter? Registrera
+            dig här:
+          </h6>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Emailadress"
+            aria-label="Emailadress för nyhetsbrev"
+            aria-describedby="button-addon2"/>
+          <button class="btn btn-success" type="button" id="button-addon2">
+            Registrera
+          </button>
+        </div>
+      </div>
+
+      <!--Liten SVG-->
+
+      <svg class="svg" width="25" height="25">
+        <circle cx="12" cy="12" r="12" fill="#198754" />
+        <text
+          x="50%"
+          y="50%"
+          text-anchor="middle"
+          fill="white"
+          font-size="12px"
+          font-family="Arial"
+          dy=".3em">
+          F
+        </text>
+        Sorry, your browser does not support inline SVG.
+      </svg>
+
+      <p>Copyright Fruktlandet AB 2022</p>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
